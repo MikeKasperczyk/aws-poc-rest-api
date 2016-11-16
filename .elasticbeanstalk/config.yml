@@ -1,0 +1,15 @@
+branch-defaults:
+  default:
+    environment: Default-Environment
+environment-defaults:
+  Default-Environment:
+    branch: null
+    repository: null
+global:
+  application_name: My First Elastic Beanstalk Application
+  default_ec2_keyname: aws-key-pair
+  default_platform: 64bit Amazon Linux 2016.09 v2.2.0 running Java 8
+  default_region: eu-west-1
+  profile: null
+  sc: null
+artifact: target/spring-boot-sample-data-rest-1.0.0-SNAPSHOT.jar
